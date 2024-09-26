@@ -27,6 +27,6 @@ public class Vehicle {
     @Override
     public String toString() {
         return "A Vehicle with a " + this.getEngineType() +
-                " engine with " + this.getHorsePower() + "horsepower";
+                " engine with " + this.getHorsePower() + " horsepower";
     }
 }

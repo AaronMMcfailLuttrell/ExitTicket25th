@@ -37,7 +37,7 @@ public class Car extends Vehicle {
 
     @Override
     public String toString() {
-        return "A " + this.getColor() + " car with a " +
+        return "A " + this.getColor() + " Car with a " +
                 (this.hasTurbo() ? "turbo " : "naturally aspirated ") +
                 this.getEngineType() + " engine with " +
                 this.getHorsePower() + " horsepower" +
